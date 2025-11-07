@@ -46,19 +46,20 @@ npm -v
 Estrutura simples, organizada por funcionalidades:
 
 ```
-cypress/
-  e2e/
-    login.cy.js
-    products.cy.js
-    cart.cy.js
-    checkout.cy.js
-  fixtures/
-    example.json
-  support/
-    commands.js
-    e2e.js
-cypress.config.js
-package.json
+QA_TEST_CYPRESS/
+  cypress/
+    e2e/
+      login.cy.js
+      products.cy.js
+      cart.cy.js
+      checkout.cy.js
+    fixtures/
+      example.json
+    support/
+      commands.js
+      e2e.js
+  cypress.config.js
+  package.json
 README.md
 ```
 
